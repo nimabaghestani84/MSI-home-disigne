@@ -335,3 +335,104 @@ div.footer li{
     background-color: black;
     opacity: 0.4;
 }
+@media screen and (max-width:1000px) {
+    ul.item-menu{
+        display: none;
+    }
+    #berger-menu{
+        display: inline-block;
+    }
+    #basket{
+        display: none;
+    }
+    section#down-banner div.dbanner{
+        max-width: 98%;
+    }
+    #news-carts{
+        visibility: hidden;
+        opacity: 0;
+    }
+    #small-news{
+        display: inline-block;
+        text-align: center;
+    }
+    #small-footer{
+        display: flex;
+        visibility: visible;
+        opacity: 0.8;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .small-footer-item{
+        width: 98%;
+        height: 20%;
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+        justify-content: space-between;
+        /* flex-direction: column; */
+        align-items: center;
+        padding: 20px 20px ;
+    }
+    
+    .footer-item{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .footer{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+    section#about div{
+        width: 300px;
+    }
+}
+@media screen and (max-width:700px) {
+    section#about div{
+        width: 200px;
+    }
+    .cart{
+        max-width: 500px;
+        min-height: 400px;
+    }
+    .cart div.cart-img{
+        max-width: 500px;
+        max-height: 300px;
+    }
+    #none1{
+        display: none;
+    }
+    #noner{
+        opacity: 0.6;
+        display: flex;
+    }
+    section#banner{
+        height: 150vh;
+    }
+    .img-small{
+        display: inline-block;
+    }
+    section#banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .img-big{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@media screen and (max-width:650px) {
+    #none2{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+#small-news{
+height: 75%;
+}
+}
+                                         /* end media  */
