@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+:root{
+    --back-color: #ffffff;
+    --two-color: #ececec;
+    --there-color: #fafafa;
+}
+body{
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+}
+i{
+    font-size: 3em;
+}
