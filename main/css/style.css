@@ -162,3 +162,72 @@ ul.zir-banner li{
 .cart:hover img{
     transform: scale(1.1);
 }
+#small-news{
+    display: none;
+    width: 95%;
+    height: 98%;
+    padding: 40px 5%;
+}
+#small-news #image{
+    width: 100%;
+    height: 70%;
+}
+#small-news #image img{
+    width: 100%;
+    height: 100%;
+}
+section#news{
+    height: 120vh;
+    background-color: var(--there-color);
+}
+section#news h1{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 40px 0;
+}
+section#news-carts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 95vh;
+    padding: 0px 20px;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+section#news-carts div{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+div.cart1{
+    grid-row: 1/3;
+}
+section#news-carts div.news-image{
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+}
+div.news-image img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+div.cart1 div.left-image{
+    width: 100%;
+    height: 88%;
+    overflow: hidden;
+}
+div.left-image img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+div.news-text p,
+div.news-text h4{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+section#news-carts div:hover{
+    background-color: var(--two-color);
+}
+section#news-carts div:hover img{
+    transform: scale(1.1);
+}
