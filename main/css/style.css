@@ -10,6 +10,11 @@ a{
 ul{
     list-style: none;
 }
+:root{
+    --back-color: #ffffff;
+    --two-color: #ececec;
+    --there-color: #fafafa;
+}
 body{
     font-family: sans-serif;
 }
@@ -19,6 +24,25 @@ ul{
 i{
     font-size: 3em;
 }
+
+.fix{
+    background-color: #555555;
+    width: 130px;
+    height: 130px;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    transform: translate(-50%,50%) rotate(45deg);
+    z-index: 10000;
+}
+.fix i{
+    position: absolute;
+    font-size: 2em;
+    transform: rotate(-45deg);
+    right: 40%;
+    top: 10%;
+}
+                                        /* start menu  */
 #berger-menu{
     display: none;
 }
@@ -56,7 +80,8 @@ ul.item-menu li#logo{
     font-size: 1.5em;
     cursor: pointer;
 }
-
+                                /* menu end  */
+                                /* banner star  */
 section#banner{
     height: 80vh;
     position: relative;
@@ -104,6 +129,8 @@ section#banner:hover  div{
     visibility: visible;
     opacity: 0.4;
 }
+                                    /* banner end  */
+                                    /* icons zir banner star */
 ul.zir-banner{
     height: 80px;
     background-color: var(--two-color);
@@ -162,6 +189,7 @@ ul.zir-banner li{
 .cart:hover img{
     transform: scale(1.1);
 }
+                                            /* start news carts  */
 #small-news{
     display: none;
     width: 95%;
@@ -231,7 +259,8 @@ section#news-carts div:hover{
 section#news-carts div:hover img{
     transform: scale(1.1);
 }
-
+                                        /* end news carts  */
+                                        /* about section star  */
 section#about{
     min-height:30vh ;
     display: flex;
@@ -293,6 +322,8 @@ section#down-banner div.dbanner:hover .in-banner{
 section#down-banner div.dbanner:hover img{
     transform: scale(1.1);
 }
+                                         /* down banner end  */
+                                         /* footer start  */
 #small-footer{
     display: none;
     opacity: 0;
@@ -335,6 +366,8 @@ div.footer li{
     background-color: black;
     opacity: 0.4;
 }
+                                         /* footer end  */
+                                         /* star media  */
 @media screen and (max-width:1000px) {
     ul.item-menu{
         display: none;
